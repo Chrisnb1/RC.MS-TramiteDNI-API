@@ -1,0 +1,25 @@
+-----------------------------------POSTs-------------------------------------
+|Endpoints|					|Atributos|
+Api/Nacimiento					(int TramiteRecienNacidoId)
+Api/NuevoEjemplar				(string Descripcion)
+Api/Extranjero					(string PaisOrigen)
+
+-----------------------------------GETs--------------------------------------
+	*En todos los casos se puede buscar por id excepto el NroDNI*
+|Endpoints|					|Busqueda|
+Api/Nacimiento/ListaNacimientos 		(int NacimientoId)
+Api/NuevoEjemplar/ListaNuevosEjemplares		(int NuevoEjemplarId)
+Api/Extranjero/ListaExtranjeros			(int ExtranjeroId)
+Api/TramiteDNI/ListaTramites 			(int TramiteDNIid)
+
+|Solicitar un numero DNI|
+Api/TramiteDNI/NroDNI 				(int)
+
+-----------------------------------PUTs--------------------------------------
+|Endpoints|					|Atributos|
+Api/Nacimiento/id				(int NacimientoId, int TramiteDNIid)
+Api/NuevoEjemplar/id				(int NuevoEjemplarId, string Descripcion, int TramiteDNIid)
+Api/Extranjero/id				(int ExtranjeroId, string PaisOrigen, int TramiteDNIid)
+
+			
+

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "p6xxiQdqVR17UH3OOSQWCc36IOcGtRrIkH7QvvLQ5r3Jv+pdDsQ/B+EhwVMNvoh+xDR9FZrTkqFBaR3zWYq/NA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Chris\\source\\repos\\RC.MS TramiteDNI API\\RC.MS-TramiteDNI-API\\RC.MS TramiteDNI.API\\RC.MS_TramineDNI.Application\\RC.MS_TramineDNI.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Chris\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
