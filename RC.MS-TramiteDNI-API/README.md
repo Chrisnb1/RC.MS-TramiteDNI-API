@@ -2,24 +2,24 @@
 RC_MS_Tramite_DNI_API
 
 # -----------------------------------POSTs-------------------------------------
-# |Endpoints|					                                            |Tipo/Atributos|
-https://localhost:44353/Api/Nacimiento		                        (int TramiteRecienNacidoId)
-https://localhost:44353/Api/NuevoEjemplar	                        (string Descripcion)
-https://localhost:44353/Api/Extranjero		                        (string PaisOrigen)
+# |Endpoints|					                                        
+https://localhost:44353/Api/Nacimiento		                        
+https://localhost:44353/Api/NuevoEjemplar	                    
+https://localhost:44353/Api/Extranjero		                     
 
 # -----------------------------------GETs--------------------------------------
 	*En todos los casos se puede buscar por id excepto el NroDNI*
-# |Endpoints|							                                        |Tipo/Busqueda|
-https://localhost:44353/Api/Nacimiento/ListaNacimientos 	        (int NacimientoId)
-https://localhost:44353/Api/NuevoEjemplar/ListaNuevosEjemplares	  (int NuevoEjemplarId)
-https://localhost:44353/Api/Extranjero/ListaExtranjeros		        (int ExtranjeroId)
-https://localhost:44353/Api/TramiteDNI/ListaTramites 		          (int TramiteDNIid)
+# |Endpoints|							                                  
+https://localhost:44353/Api/Nacimiento/ListaNacimientos 	       
+https://localhost:44353/Api/NuevoEjemplar/ListaNuevosEjemplares	  
+https://localhost:44353/Api/Extranjero/ListaExtranjeros		        
+https://localhost:44353/Api/TramiteDNI/ListaTramites 		       
 
 |Solicitar un numero DNI|
-https://localhost:44353/Api/TramiteDNI/NroDNI 				            (int)
+https://localhost:44353/Api/TramiteDNI/NroDNI 				      
 
 # -----------------------------------PUTs--------------------------------------
-# |Endpoints|							                                        |Tipo/Atributos|
-https://localhost:44353/Api/Nacimiento/id			                    (int NacimientoId, int TramiteDNIid)
-https://localhost:44353/Api/NuevoEjemplar/id			                (int NuevoEjemplarId, string Descripcion, int TramiteDNIid)
-https://localhost:44353/Api/Extranjero/id			                    (int ExtranjeroId, string PaisOrigen, int TramiteDNIid)
+# |Endpoints|							                                     
+https://localhost:44353/Api/Nacimiento/id			                    
+https://localhost:44353/Api/NuevoEjemplar/id			                
+https://localhost:44353/Api/Extranjero/id			                    
