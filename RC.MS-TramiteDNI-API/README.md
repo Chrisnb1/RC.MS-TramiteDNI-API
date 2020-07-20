@@ -1,2 +1,25 @@
 # RC.MS-TramiteDNI-API
 RC_MS_Tramite_DNI_API
+
+# -----------------------------------POSTs-------------------------------------
+# |Endpoints|					                                            |Tipo/Atributos|
+https://localhost:44353/Api/Nacimiento		                        (int TramiteRecienNacidoId)
+https://localhost:44353/Api/NuevoEjemplar	                        (string Descripcion)
+https://localhost:44353/Api/Extranjero		                        (string PaisOrigen)
+
+# -----------------------------------GETs--------------------------------------
+	*En todos los casos se puede buscar por id excepto el NroDNI*
+# |Endpoints|							                                        |Tipo/Busqueda|
+https://localhost:44353/Api/Nacimiento/ListaNacimientos 	        (int NacimientoId)
+https://localhost:44353/Api/NuevoEjemplar/ListaNuevosEjemplares	  (int NuevoEjemplarId)
+https://localhost:44353/Api/Extranjero/ListaExtranjeros		        (int ExtranjeroId)
+https://localhost:44353/Api/TramiteDNI/ListaTramites 		          (int TramiteDNIid)
+
+|Solicitar un numero DNI|
+https://localhost:44353/Api/TramiteDNI/NroDNI 				            (int)
+
+# -----------------------------------PUTs--------------------------------------
+# |Endpoints|							                                        |Tipo/Atributos|
+https://localhost:44353/Api/Nacimiento/id			                    (int NacimientoId, int TramiteDNIid)
+https://localhost:44353/Api/NuevoEjemplar/id			                (int NuevoEjemplarId, string Descripcion, int TramiteDNIid)
+https://localhost:44353/Api/Extranjero/id			                    (int ExtranjeroId, string PaisOrigen, int TramiteDNIid)
